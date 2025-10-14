@@ -8,3 +8,11 @@ let esMayorDeEdad = edad >= 18 //variable formato camelcase
 
 
 console.log('hola ' + nombre);
+
+function saludar(_nombre='mundo') {
+    alert("hola " + _nombre);
+}
+
+saludar();
+saludar(nombre);
+saludar('ana');
