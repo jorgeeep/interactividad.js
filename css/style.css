@@ -13,3 +13,40 @@ body.dark {
     background-color: var(--dark);
     color: var(--light);
 }
+
+section#attract {
+    position: fixed;
+    background: var(--dark);
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+
+button {
+    background-color: var(--dark);
+    color: var(--light);
+    cursor: pointer;
+    transition: all .3s;
+    border: none;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+    font-size: 34px;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background: red;
+    color: black;
+    border-radius: 0;
+}

@@ -10,11 +10,11 @@ function toggleTheme (){
     document.body.classList.toggle("dark");
     if (document.body.classList.contains("dark")){
         
-        toggleThemeBtn.textContent = "activar lightmode";
+        toggleThemeBtn.innerHTML = '<i class="fa-solid fa-sun"></i';
 
     } else {
         
-        toggleThemeBtn.textContent = "activar darkmode";
+        toggleThemeBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
 
     }
 }
