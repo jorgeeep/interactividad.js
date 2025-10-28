@@ -6,7 +6,7 @@ const TAU = Math.PI;
 //booleanos tipos de variable true o false
 let esMayorDeEdad = edad >= 18 //variable formato camelcase
 
-
+/*
 console.log('hola ' + nombre);
 
 function saludar(_nombre='mundo') {
@@ -16,3 +16,4 @@ function saludar(_nombre='mundo') {
 saludar();
 saludar(nombre);
 saludar('ana');
+*/
